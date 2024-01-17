@@ -1,0 +1,17 @@
+model:
+  z_dim: 128
+  hidden_dim: 1024
+  input_dim: 784
+
+training:
+  batch_size: 128
+  learning_rate: 1.0e-4
+  num_epochs: 100
+
+visualization:
+  grid_rows: 8
+  grid_cols: 16
+
+save_directories:
+  model_save_dir: 'runs/models'
+  imgs_save_dir: 'runs/images'
